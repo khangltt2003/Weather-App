@@ -126,20 +126,20 @@ body .search i:hover{
     background: linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.4)), url(./assets/images/cold.png) no-repeat center/cover;
 }
 
-.hot{
-    background: linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.4)), url(./assets/images/hot.png) no-repeat center/cover;
-}
-
-.windy{
-    background: linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.4)), url(./assets/images/wind.png) no-repeat center/cover;
-}
-
 .cold .container{
     background:  url(./assets/images/cold.png) no-repeat center/cover;
 }
 
+.hot{
+    background: linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.4)), url(./assets/images/hot.png) no-repeat center/cover;
+}
+
 .hot .container{
     background:  url(./assets/images/hot.png) no-repeat center/cover;
+}
+
+.windy{
+    background: linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.4)), url(./assets/images/wind.png) no-repeat center/cover;
 }
 
 .windy .container{
