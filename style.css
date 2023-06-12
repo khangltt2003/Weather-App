@@ -134,14 +134,14 @@ body .search i:hover{
     background: linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.4)), url(./assets/images/wind.png) no-repeat center/cover;
 }
 
-.cold_card{
+.cold .container{
     background:  url(./assets/images/cold.png) no-repeat center/cover;
 }
 
-.hot_card{
+.hot .container{
     background:  url(./assets/images/hot.png) no-repeat center/cover;
 }
 
-.windy_card{
+.windy .container{
     background:  url(./assets/images/wind.png) no-repeat center/cover;
 }

@@ -19,6 +19,7 @@ async function changeWeatherUI(city){
     let data = await fetch(URL).then((res)=>{
         return res.json();
     })
+    
     if(data.name){
         console.log(data);
         console.log(data.name);
@@ -35,18 +36,14 @@ async function changeWeatherUI(city){
 
         //remove added classlist
         document.querySelector("body").classList.remove(document.querySelector("body").classList[0]);
-        container.classList.remove(container.classList[1]);
         if(data.main.temp  > 25 ){
             document.querySelector("body").classList.add("hot");
-            container.classList.add("hot_card");
         }
         else if(data.main.temp > 13){
             document.querySelector("body").classList.add("windy");
-            container.classList.add("windy_card");
         }
         else{
             document.querySelector("body").classList.add("cold");
-            container.classList.add("cold_card");
         }
     }
     else{
